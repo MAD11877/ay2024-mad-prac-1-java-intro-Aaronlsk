@@ -6,10 +6,10 @@ public class Question5
   {
     Scanner in = new Scanner(System.in);
     ArrayList<Integer> numList = new ArrayList<>();
-    System.out.println("Enter the number of integers you would like: ");
+    //System.out.println("Enter the number of integers you would like: ");
     int num = in.nextInt();
     for (int i = num; i >= 1; i--) {
-      System.out.println("Enter a number: ");
+      //System.out.println("Enter a number: ");
       int number = in.nextInt();
       numList.add(number);
     }
