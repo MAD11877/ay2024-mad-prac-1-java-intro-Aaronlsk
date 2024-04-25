@@ -5,7 +5,7 @@ public class Question5
 {
   public static void main(String[] args)
   {
-    Scanner in = new Scanner(System.in);
+    Scanner in = new Scanner(System.in);  
     ArrayList<Integer> numList = new ArrayList<>();
     //System.out.println("Enter the number of integers you would like: ");
     int num = in.nextInt();
